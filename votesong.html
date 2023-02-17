@@ -1,15 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="form.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
-</body>
-
+  <body>
+    <header></header>
+    <main>
+      <h1>Vote For Your Favorite ABBA Song</h1>
+      <form action="Vote">
+        <label for="abba_songs_vote"
+          >Choose your favorite song
+          <select name="selection_of_songs" id="selection_of_songs">
+            <option value="d">Dancing Queen</option>
+            <option value="ggg">Gimme Gimme Gimme</option>
+            <option value="mm">Mamma Mia</option>
+            <option value="twtia">The Winner Takes It All</option>
+            <option value="tacom">Take A Chance On Me</option>
+            <option value="laylom">Lay All Your Love On Me</option>
+            <option value="w">Waterloo</option>
+            <option value="st">Super Trouber</option>
+            <option value="c">Chiquitita</option>
+            <option value="sos">S.O.S.</option>
+            <option value="vv">Voulez Vouz</option>
+            <option value="f">Fernando</option>
+            <option value="kmky">Knowing Me Knowing You</option>
+            <option value="dymk">Does Your Mother Know</option>
+            <option value="ay">Angel Eyes</option>
+            <option value="mmm">Money Money Money</option>
+            <option value="ihad">I Have A Dream</option>
+            <option value="tyftm">Thank You For The Music</option>
+            <option value="oou">One Of Us</option>
+            <option value="stmf">Slipping Through My Fingers</option>
+          </select>
+        </label>
+        <label for="full-name"> Full Name</label>
+        <input placeholder="fx Anni Frid Lyngstad" type="full-name" id="full_name" name="fname" type="text" />
+        <label for="e-mail"> E-mail</label>
+        <input placeholder="fx abba@gmail.com" type="e-mail" id="e-mail" name="email" type="text" />
+        <button>Submit</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
 </html>
