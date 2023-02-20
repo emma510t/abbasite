@@ -1,4 +1,7 @@
-fetch("https://abbasange-6b28.restdb.io/rest/abbasange", {
+const urlParams = new URLSearchParams(window.location.search);
+const album = urlParams.get("album");
+
+fetch(`https://abbasange-6b28.restdb.io/rest/abbasange?q={"album":"${album}"}`, {
   method: "get",
   headers: {
     "x-apikey": "63eb762d478852088da6824e",
