@@ -16,6 +16,7 @@ function showSongs(data) {
 }
 
 function showSong(song) {
+  document.querySelector("h1").textContent = album;
   //fange template
 
   const template = document.querySelector("#songTemplate").content;
