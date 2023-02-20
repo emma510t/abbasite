@@ -24,6 +24,8 @@ function showSong(song) {
   copy.querySelector(".albumCover").alt = song.titel;
 
   copy.querySelector(".songTitel").textContent = song.titel;
+
+  copy.querySelector(".read_more").setAttribute("href", `song.html?id=${song._id}`);
   //appende
   document.querySelector(".songlistDiv").appendChild(copy);
 }
