@@ -12,14 +12,61 @@ body {
 
 main {
   margin-inline: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c0c0c;
+  justify-content: center;
+}
+
+.nav_a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.logo {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  object-position: cover;
+  width: 100%;
+  padding-top: 10%;
 }
 
 .forsideBillede {
-  width: 100%;
-  margin: 0;
+  grid-column: 1/3;
+  grid-row: 1/4;
+  object-position: cover;
+  width: 150%;
 }
 
 footer {
   background-color: #f1b56c;
   margin: 0;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
