@@ -3,7 +3,6 @@
 body {
   background-color: #efd6b6;
   font-family: "Sofia Sans Condensed", sans-serif;
-  hej
 }
 
 .grid_1-1-1 {
@@ -17,11 +16,11 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .album {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .inMammaMia {
@@ -38,13 +37,28 @@ h1 {
 
 .albumCover {
   padding-top: 20%;
-  padding-left: 30%;
-  width: 80%;
+  padding-left: 9%;
+  width: 70%;
+  display:inline;
 }
 
 .songInfoSection {
-  padding-top: 20%;
-  padding-left: 30%;
+  padding-top: 18%;
+  padding-left:10%;
+}
+
+.albumSection{
+    display:block;
+}
+
+.vinyl{
+    display:inline;
+    width:20%;
+    padding-bottom:5%;
+}
+
+.spotifyStreams{
+    font-size:25px;
 }
 
 .chartSection {
