@@ -1,5 +1,10 @@
 /* songlist */
 
+body {
+  background-color: #efd6b6;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+
 ul {
   display: flex;
   list-style-type: none;
