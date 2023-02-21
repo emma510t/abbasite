@@ -71,3 +71,24 @@ button {
   padding-top: 100px;
   margin: auto;
 }
+
+footer {
+  background-color: #f1b56c;
+  margin: 0;
+}
+
+p {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
