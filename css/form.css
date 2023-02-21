@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: pink;
+  background-color: #efd6b6;
+  font-family: "Sofia Sans Condensed", sans-serif;
 }
 
 main {
@@ -24,6 +25,11 @@ h1 {
   margin: auto;
   text-align: center;
   padding: 20px;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
 }
 
 label,
@@ -31,7 +37,6 @@ input,
 button,
 select {
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
@@ -59,4 +64,10 @@ button {
   font-size: 15px;
   padding: 10px 100px 10px 100px;
   width: 100%;
+}
+
+.abba_img {
+  width: 100%;
+  padding-top: 100px;
+  margin: auto;
 }
