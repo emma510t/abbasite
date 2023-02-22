@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>XXX</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500;700&display=swap" rel="stylesheet" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/disco_ball.png" />
-  </head>
 
-  <body>
-    <header>
-      <div>
-        <ul>
-          <li><a class="nav_a" href="index.html">Home Page</a></li>
-          <li><a class="nav_a" href="categories.html">Categories</a></li>
-          <li><a class="nav_a" href="votesong.html">Vote Song</a></li>
-        </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Album Discography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/disco_ball.png" />
+</head>
+
+<body>
+  <header>
+    <div>
+      <ul>
+        <li><a class="nav_a" href="index.html">Home Page</a></li>
+        <li><a class="nav_a" href="categories.html">Categories</a></li>
+        <li><a class="nav_a" href="votesong.html">Vote Song</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <h1>Album Discography</h1>
+    <section class="categories">
+      <div class="songlistDiv">
+        <template id="songTemplate">
+          <article>
+            <a href="song.html" class="read_more"><img class="albumCover" src="" alt="albumCover" /> </a>
+            <h2 class="songTitel">Titel</h2>
+          </article>
+        </template>
       </div>
-    </header>
+    </section>
+  </main>
+  <footer>
+    <section class="grid1_1_1">
+      <a href="index.html">
+        <p>Contact Us</p>
+      </a>
+      <p>School Project</p>
+      <p>Data source: Wikipedia</p>
+    </section>
+  </footer>
+  <script src="js/category.js"></script>
+</body>
 
-    <main>
-      <h1>Album Discography</h1>
-      <section class="categories">
-        <div class="songlistDiv">
-          <template id="songTemplate">
-            <article>
-              <a href="song.html" class="read_more"><img class="albumCover" src="" alt="albumCover" /> </a>
-              <h2 class="songTitel">Titel</h2>
-            </article>
-          </template>
-        </div>
-      </section>
-    </main>
-    <footer></footer>
-    <script src="js/category.js"></script>
-  </body>
 </html>

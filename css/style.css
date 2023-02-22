@@ -3,6 +3,7 @@
 body {
   background-color: #efd6b6;
   font-family: "Sofia Sans Condensed", sans-serif;
+  margin: 0;
 }
 
 ul {
@@ -38,4 +39,25 @@ article {
 
 img {
   width: 350px;
+}
+
+footer {
+  background-color: #f1b56c;
+  margin: 0;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer .grid1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }

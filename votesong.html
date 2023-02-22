@@ -1,71 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/form.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500;700&display=swap" rel="stylesheet" />
-    <title>Document</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/disco_ball.png" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/form.css" />
 
-  <body>
-    <header>
-      <div>
-        <ul>
-          <li><a class="nav_a" href="index.html">Home Page</a></li>
-          <li><a class="nav_a" href="categories.html">Categories</a></li>
-          <li><a class="nav_a" href="votesong.html">Vote Song</a></li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <h1>Vote For Your Favorite ABBA Song</h1>
-      <form action="thanksforvoting.html" name="song_vote" netlify>
-        <label for="selection_of_songs"
-          >Choose your favorite song
-          <select name="selection_of_songs" id="selection_of_songs">
-            <option value="Dancing Queen">Dancing Queen</option>
-            <option value="Gimme Gimme Gimme">Gimme Gimme Gimme</option>
-            <option value="MammaMia">Mamma Mia</option>
-            <option value="The Winner Takes It All">The Winner Takes It All</option>
-            <option value="Take A Change On Me">Take A Chance On Me</option>
-            <option value="Lay All Your Love On Me">Lay All Your Love On Me</option>
-            <option value="Waterloo">Waterloo</option>
-            <option value="Super Trouper">Super Trouper</option>
-            <option value="Chiquitita">Chiquitita</option>
-            <option value="S.O.S">S.O.S.</option>
-            <option value="Voulez Vouz">Voulez Vouz</option>
-            <option value="Fernando">Fernando</option>
-            <option value="Knowing Me Knowing You">Knowing Me Knowing You</option>
-            <option value="Does Your Mother Know">Does Your Mother Know</option>
-            <option value="Angel Eyes">Angel Eyes</option>
-            <option value="Money Money Money">Money Money Money</option>
-            <option value="I Have A Dream">I Have A Dream</option>
-            <option value="Thank You For The Music">Thank You For The Music</option>
-            <option value="One Of Us">One Of Us</option>
-            <option value="Slipping Trough My Fingers">Slipping Through My Fingers</option>
-          </select>
-        </label>
-        <label for="full_name">Full Name</label>
-        <input placeholder="fx Anni Frid Lyngstad" id="full_name" name="fname" type="text" />
-        <label for="e-mail">E-mail</label>
-        <input placeholder="fx abba@gmail.com" id="e-mail" name="email" type="text" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@500;700&display=swap"
+    rel="stylesheet" />
+  <title>Vote</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/disco_ball.png" />
+</head>
 
-        <button>Submit</button>
-      </form>
-    </main>
-    <footer>
-      <section class="grid1_1_1">
-        <a href="index.html"><p>Contact Us</p></a>
-        <p>School Project</p>
-        <p>Data source: Wikipedia</p>
-      </section>
-    </footer>
-  </body>
+<body>
+  <header>
+    <div>
+      <ul>
+        <li><a class="nav_a" href="index.html">Home Page</a></li>
+        <li><a class="nav_a" href="categories.html">Categories</a></li>
+        <li><a class="nav_a" href="votesong.html">Vote Song</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <h1>Vote For Your Favorite ABBA Song</h1>
+    <form action="thanksforvoting.html" name="song_vote" netlify>
+      <label for="selection_of_songs">Choose your favorite song
+        <select name="selection_of_songs" id="selection_of_songs">
+          <option value="Dancing Queen">Dancing Queen</option>
+          <option value="Gimme Gimme Gimme">Gimme Gimme Gimme</option>
+          <option value="MammaMia">Mamma Mia</option>
+          <option value="The Winner Takes It All">The Winner Takes It All</option>
+          <option value="Take A Change On Me">Take A Chance On Me</option>
+          <option value="Lay All Your Love On Me">Lay All Your Love On Me</option>
+          <option value="Waterloo">Waterloo</option>
+          <option value="Super Trouper">Super Trouper</option>
+          <option value="Chiquitita">Chiquitita</option>
+          <option value="S.O.S">S.O.S.</option>
+          <option value="Voulez Vouz">Voulez Vouz</option>
+          <option value="Fernando">Fernando</option>
+          <option value="Knowing Me Knowing You">Knowing Me Knowing You</option>
+          <option value="Does Your Mother Know">Does Your Mother Know</option>
+          <option value="Angel Eyes">Angel Eyes</option>
+          <option value="Money Money Money">Money Money Money</option>
+          <option value="I Have A Dream">I Have A Dream</option>
+          <option value="Thank You For The Music">Thank You For The Music</option>
+          <option value="One Of Us">One Of Us</option>
+          <option value="Slipping Trough My Fingers">Slipping Through My Fingers</option>
+        </select>
+      </label>
+      <label for="full_name">Full Name</label>
+      <input placeholder="fx Anni Frid Lyngstad" id="full_name" name="fname" type="text" />
+      <label for="e-mail">E-mail</label>
+      <input placeholder="fx abba@gmail.com" id="e-mail" name="email" type="text" />
+
+      <button>Submit</button>
+    </form>
+  </main>
+  <footer>
+    <section class="grid1_1_1">
+      <a href="index.html">
+        <p>Contact Us</p>
+      </a>
+      <p>School Project</p>
+      <p>Data source: Wikipedia</p>
+    </section>
+  </footer>
+</body>
+
 </html>
