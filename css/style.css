@@ -28,14 +28,17 @@ li a {
 h1 {
 text-align: center;
 }*/
-
-.songlistDiv {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+@media (min-width: 1100px) {
+  .songlistDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 article {
-  margin: auto;
+  margin: 0 auto;
+  max-width: 350px;
+  padding-bottom: 30px;
 }
 
 img {
