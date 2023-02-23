@@ -77,6 +77,11 @@ footer {
   margin: 0;
 }
 
+.voteFooter {
+  position: sticky;
+  top: 100%;
+}
+
 p {
   text-align: center;
   padding: 20px;
